@@ -98,7 +98,6 @@ const shellInputBlank = () => {
     byId("terminal").innerText = "";
 };
 byId("anchor-resume").onmouseover = () => shellInputType("curl\u00a0Resume.pdf");
-byId("anchor-experience").onmouseover = () => shellInputType("doskey\u00a0/history");
 byId("anchor-projects").onmouseover = () => shellInputType("git\u00a0clone\u00a0Projects");
 byId("anchor-contact").onmouseover = () => shellInputType("ping\u00a0Andrews");
 byId("anchor-title").onmouseover = () => shellInputType("dir\u00a0Andrews\\");
